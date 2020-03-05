@@ -1,0 +1,21 @@
+name: atcoder_python3
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - flake8=2.5.1=py34_0
+  - intel-openmp=2019.4=245
+  - mccabe=0.3.1=py34_0
+  - mkl=2017.0.4=h6d528fc_0
+  - msvc_runtime=1.0.1=vc10_0
+  - numpy=1.11.3=py34_0
+  - pep8=1.7.0=py34_0
+  - pip=9.0.1=py34_1
+  - pyflakes=1.5.0=py34_0
+  - python=3.4.3=5
+  - scikit-learn=0.18.1=np111py34_1
+  - scipy=0.19.1=np111py34_0
+  - setuptools=27.2.0=py34_1
+  - vc=10=0
+  - vs2010_runtime=10.00.40219.1=2
+  - wheel=0.29.0=py34_0
