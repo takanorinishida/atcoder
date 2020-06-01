@@ -173,3 +173,24 @@ def gcd(m, n):
 def lcm(m, n):
   return m * n // gcd(m, n)
 ```
+
+### 素因数分解
+
+```python
+# 素因数分解 (試し割り法) する関数
+def prime_factorize(n):
+    a = []
+    while n % 2 == 0:
+        a.append(2)
+        n //= 2
+    f = 3
+    while f * f <= n:
+        if n % f == 0:
+            a.append(f)
+            n //= f
+        else:
+            f += 2
+    if n != 1:
+        a.append(n)
+    return a
+```
